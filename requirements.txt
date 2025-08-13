@@ -14,5 +14,5 @@ sqlalchemy
 faiss-cpu
 tabulate
 streamlit_option_menu
-openai==0.27.8 
+openai
 streamlit-aggrid
