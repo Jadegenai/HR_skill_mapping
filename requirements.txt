@@ -2,6 +2,7 @@ altair
 snowflake-connector-python
 snowflake-sqlalchemy
 plotly
+openpyxl
 numpy
 pandas
 matplotlib
