@@ -6,7 +6,7 @@ numpy
 pandas
 matplotlib
 seaborn
-
+streamlit_extras
 streamlit_chat
 langchain==0.0.124
 pinecone-client
