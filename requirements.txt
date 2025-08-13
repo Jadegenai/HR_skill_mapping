@@ -17,3 +17,4 @@ tabulate
 streamlit_option_menu
 openai
 streamlit-aggrid
+xlsxwriter
