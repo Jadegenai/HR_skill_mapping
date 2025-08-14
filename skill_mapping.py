@@ -80,6 +80,18 @@ def hide_basic_streamlit_elements() -> None:
                 background-color: #ffffff;
                 overflow-y: auto;
             }
+                
+            /* 🔒 Hide the sidebar collapse/un-collapse button */
+            button[title="Hide sidebar"], 
+            button[title="Show sidebar"] {
+                display: none !important;
+            }
+
+            /* Optional: Prevent sidebar resizing */
+            [data-testid="stSidebar"] {
+                min-width: 300px !important;
+                max-width: 300px !important;
+            }
         </style>
     """, unsafe_allow_html=True)
 
